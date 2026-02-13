@@ -1,0 +1,36 @@
+.notfound-error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fontFamily);
+}
+
+.oops-error-page {
+    font-size: 100px;
+    font-weight: 900;
+    -webkit-text-fill-color: #0000;
+    background: linear-gradient(90deg, #fe019a, #fa7cc8);
+    background-clip: text;
+    text-decoration: none;
+}
+
+.oops-title {
+    font-weight: 700;
+    /* margin-top: 20px; */
+    color: red;
+    font-size: 20px;
+}
+
+.oops-description {
+    color: gray;
+}
+
+.oops-button {
+    border: 0;
+    padding: 5px 30px;
+    background: linear-gradient(to right, #00adef, #8bc43f) !important;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}

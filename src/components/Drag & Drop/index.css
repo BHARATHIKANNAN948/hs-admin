@@ -1,0 +1,44 @@
+  .manage-gallery-drog{
+    width: 500px;
+    border: 2px dashed rgba(0, 173, 239, 255);
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .upload-icon-managegallery{
+    font-size: 40px;
+    padding-top: 10px;
+    /* color: rgba(0, 173, 239, 255); */
+    color: rgba(139, 196, 63, 255);
+  }
+
+
+  .managegallery-text{
+    font-size: 15px;
+  }
+
+  .close-icon-manage-gallery{
+    font-size: 12px;
+  }
+
+  .app-brand{
+    margin: 20px;
+  }
+
+  .store-pagination{
+    margin-right: 15px;
+  }
+  
+  .gallery-thumb {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.card.position-relative {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px 2px rgba(0,0,0,0.06);
+  overflow: hidden;
+}

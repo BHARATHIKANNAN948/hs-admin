@@ -1,0 +1,61 @@
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+  border: 4px solid #0000;
+  border-radius: 50%;
+  border-color: rgba(139, 197, 63, 255) #0000;
+  animation: l16 1s infinite linear;
+}
+
+.loader::before,
+.loader::after {
+  content: "";
+  grid-area: 1/1;
+  margin: 2px;
+  border: inherit;
+  border-radius: 50%;
+}
+
+.loader::before {
+  border-color: rgba(0, 173, 238, 255) #0000;
+  animation: inherit;
+  animation-duration: .5s;
+  animation-direction: reverse;
+}
+
+.loader::after {
+  margin: 8px;
+}
+
+@keyframes l16 {
+  100% {
+    transform: rotate(1turn)
+  }
+}
+
+.menu-link.active-custom {
+  background-color: rgba(132, 226, 240, 0.16) !important;
+  color: rgba(0, 173, 239, 255) !important;
+  font-weight: 500;
+}
+
+
+.dashboard-icon-card{
+  background-color: rgb(206, 254, 254);
+  padding: 0px 2px 2px 1px;
+  border-radius: 5px;
+  color: rgba(0, 173, 239, 255);
+}
+
+.sidebar-logo-img{
+  max-width: 150px;
+}
+
+.dash-logout-btn{
+  border: 1px solid rgb(252, 47, 47);
+  background-color: transparent;
+  color: rgb(252, 47, 47);
+  border-radius: 5px;
+  padding: 3px 20px;
+}
